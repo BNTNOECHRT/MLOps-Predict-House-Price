@@ -11,7 +11,9 @@ Docker, Github Action, XGBoost, Flask, Heroku (cloud provider)
 <br/>
 <br/>
 Everytime the main branch of this repo is updated, the app will be automatically reloaded on the cloud
-
+<br/>
+<br/>
+Quick Note: Heroku Memory is very limited, this is the reason my package imports are unusual in app.py
 
 ## Thank You
 
