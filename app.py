@@ -4,9 +4,6 @@ from numpy import array
 from xgboost import Booster, DMatrix
 
 
-import xgboost as xgb
-
-
 app = Flask(__name__)
 model_xgb = Booster()
 model_xgb.load_model(fname = "my_model.json")
