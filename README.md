@@ -4,7 +4,8 @@
 ## Link to Project : https://mlops-house-price.herokuapp.com/
 
 The goal if this project is to run a Machine Learning model on the cloud.
-
+<br/>
+<br/>
 # :rocket: Tech Stack 
 Docker, Github Action, XGBoost, Flask, Heroku (cloud provider)
 <br/>
