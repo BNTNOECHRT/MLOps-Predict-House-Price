@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict House Price in Cali</h1>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="{{ url_for('predict')}}"method="POST">
+      <input type="text" name="medinc" placeholder="Median Income/10 000 $" required="required" /><br>
+    	<input type="text" name="houseage" placeholder="House Age in years (1 to 52)" required="required" /><br>
+        <input type="text" name="averooms" placeholder="Average Rooms" required="required" /><br>
+        <input type="text" name="avebedrms" placeholder="Average Bedrooms" required="required" /><br>
+        <input type="text" name="population" placeholder="Population per block (3 to 35682) " required="required" /><br>
+        <input type="text" name="aveoccup" placeholder="Avg Nb of Household per block (1 to 1250)" required="required" /><br>
+		<input type="text" name="lat" placeholder="Latitude (32.54 to 41.95)" required="required" /><br>
+		<input type="text" name="long" placeholder="Longitude (-124.35 to -114.31)" required="required" /><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{pred}}
+
+</body>
+</html>
