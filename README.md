@@ -1,2 +1,2 @@
 # MLOps-Predict-House-Price
- Cloud, Docker, ML Predict House Price in California
+ Cloud, Docker, CI-CD Pipeline ML Predict House Price in California
