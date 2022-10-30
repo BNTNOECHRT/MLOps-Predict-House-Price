@@ -1,7 +1,7 @@
 # MLOps-Predict-House-Price
  Cloud, Docker, CI/CD Pipeline, ML Predict House Price in California
 
-## https://mlops-house-price.herokuapp.com/
+## Link to Project : https://mlops-house-price.herokuapp.com/
 
 The goal if this project is to run a Machine Learning model on the cloud.
 
