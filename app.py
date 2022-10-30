@@ -1,6 +1,4 @@
 from flask import Flask, request, render_template, jsonify
-import os, psutil
-
 from pandas import DataFrame 
 from numpy import array
 from xgboost import Booster, DMatrix
@@ -39,5 +37,3 @@ def predict_api():
 
 if __name__=="__main__":
     app.run(debug=True)
-    process = psutil.Process(os.getpid())
-    print(process.memory_info().rss)
