@@ -24,7 +24,7 @@ def predict():
     data_unseen = pd.DataFrame([final], columns = cols)
     prediction = model_xgb.predict(xgb.DMatrix(data_unseen))
     prediction_res = round(prediction[0] * 100000, 2)
-    return render_template('home.html',pred='Expected Price will be {} $'.format(prediction_res))
+    return render_template('home.html',pred='Expected Price will be {:,} $'.format(prediction_res).replace(",", " "))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
