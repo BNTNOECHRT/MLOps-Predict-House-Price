@@ -8,12 +8,14 @@ The goal if this project is to run a Machine Learning model on the cloud.
 # :rocket: Tech Stack 
 Docker, Github Action, XGBoost, Flask, Heroku (cloud provider)
 <br/>
+<br/>
 Everytime the main branch of this repo is updated, the app will be automatically reloaded on the cloud
 
 
 ## Thank You
 
 Thanks to Krish Naik @ https://www.youtube.com/watch?v=Gs15V79cauo for helping with this project :pray:
+<br/>
 <br/>
 Thank you for your time and consideration :smile:
 
