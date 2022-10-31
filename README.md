@@ -4,7 +4,7 @@
 ## Link to Project : https://mlops-house-price.herokuapp.com/
 Note: It might take a minute to load. Server goes to "rest state" after some time
 
-The goal if this project is to run a Machine Learning model on the cloud.
+The goal of this project is to run a Machine Learning model on the cloud.
 <br/>
 <br/>
 # :rocket: Tech Stack 
